@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 3%);
+    color: #fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*Home Section*/
+#header{
+    width: 100%;
+    height: 100vh;
+}
+.img{
+    width: 800px;
+    background-image: url(Images/profile.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+/*=CSS for whole Saroj div*/
+.my-header{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    margin-left: 1px;
+    display: flex;
+    font-size: 3rem;
+}
+/*CSS for letter S*/
+.top-heading-1-letter{
+    color: hsl(344, 100%, 57%);
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul{
+    position: absolute;
+    right: 10%;
+    top: 8%;
+}
+nav ul li{
+    display: inline;
+    margin: 0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover{
+    padding: 4px;
+    color: black;
+    background-color: hsl(0, 0%, 92%);
+    border-radius: 7px;
+}
+/*Hi I am Saroj*/
+.header-text{
+    position: absolute;
+    top: 40%;
+    max-width: 45%;
+    left: 5%;
+}
+.header-text p{
+    font-size: 2rem;
+    
+}
+.header-text span{
+    color:hsl(344, 100%, 57%) ;
+}
+.header-text h1{
+    font-size: 1.65rem;
+}
+#about{
+    padding: 80px 0;
+    width: 100%;
+    height: 100vh;
+}
+.column-1 img{
+    background-color:rgb(33, 33, 33);
+    position: absolute;
+    left: 40px;
+    user-select: none;
+}
+.column-2 h1{
+    position: absolute;
+    right: 330px;
+    color: white;
+}
+.column-2 p{
+    position: absolute;
+    top: 850px;
+    right: 100px;
+    width: 40%;
+    font-size: 1.2rem;
+}
+.column-2 span{
+    color: hsl(60, 100%, 50%);
+}
+.skills{
+    color: white;
+    position: absolute;
+    top: 960px;
+    right: 100px;
+    width: 40%;
+    font-size: 1.2rem;
+    width: 40%;
+    text-align: center;
+}
+.skills .skill-box{
+    padding: 13px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: hsl(0, 0%, 12%);
+    width: 46%;
+    text-align: center;
+    display: inline-block;
+}
+#c-language::before{
+    content: '';
+}
+#c-language:hover::before{
+    content: '2+ years of experience in ';
+}
+#c-language:hover{
+ transition:background-color 0.5s;
+ background-color: hsl(344, 100%, 57%);
+}
+
+#php-language::before{
+    content: '';
+}
+#php-language:hover::before{
+    content: '1+ years of experience in ';
+}
+#php-language:hover{
+    transition:background-color 0.5s;
+ background-color: hsl(344, 100%, 57%);
+}
+
+#sql-language::before{
+    content: '';
+}
+#sql-language:hover::before{
+    content: '1+ years of experience in ';
+}
+#sql-language:hover{
+    transition:background-color 0.5s;
+ background-color: hsl(344, 100%, 57%);
+}
+
+#html::before{
+    content: '';
+}
+#html:hover::before{
+    content: '3+ years of experience in ';
+}
+#html:hover{
+ transition:background-color 0.5s;
+ background-color: hsl(344, 100%, 57%);
+}
+
+#javascript::before{
+    content: '';
+}
+#javascript:hover::before{
+    content: '1+ years of experience in ';
+}
+#javascript:hover{
+ transition:background-color 0.5s;
+ background-color: hsl(344, 100%, 57%);
+}
+
+#reacts::before{
+    content: '';
+}
+#reacts:hover::before{
+    content: '2+ months of experience in ';
+}
+#reacts:hover{
+ transition:background-color 0.5s;
+ background-color: hsl(344, 100%, 57%);
+}
+#projects{
+    width: 100%;
+    height: 100vh;
+    padding: 30px 0;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.project-container h1{
+    text-align: center;
+}
+.my-projects{
+    background-color: hsl(0, 0%, 20%);
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+.my-projects i{
+ font-size: 3rem;
+ padding: 4px;
+ margin: 8px;
+}
+.my-projects:hover{
+    transition: background-color o.3sec;
+    background-color: hsl(344, 100%, 57%);
+}
+.my-projects li{
+    list-style: none;
+}
+.my-projects li a{
+    text-decoration: none;
+    color: rgb(121, 255, 3);
+}
+.my-projects li a:hover{
+    background-color: black;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 7px;
+}
+.skill-icons i{
+    font-size: 2rem;
+}
+#projects h1{
+font-size: 2rem;
+text-align: center;
+}
+/*-------------Contact--------------------------------*/
+#contact{
+    width: 100%;
+    height: 100vh;
+}
+#msg{
+    color: rgb(26, 232, 26);
+    font-size: 2em;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.btn{
+   text-align: center;
+   padding: 5px;
+   margin: 5px;
+   background-color: hsl(179, 100%, 32%);
+   border-radius: 10px;
+   transition: background-color 0.3s;
+}
+.btn:hover{
+    background-color: hsl(179, 100%, 42%);
+}
+.btn:active{
+    background-color: hsl(179, 100%, 60%);
+}
+
+@media screen and (max-width:600px){
+    *{
+        margin: 0;
+    }
+    .my-header{
+        font-size: 2rem;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    nav ul{
+        display: none;
+    }
+    #header{
+        width: 100%;
+        height: 100vh;
+    }
+    .container{
+        width: 100%;
+    }
+    .header-text p{
+        width: 300px;
+        font-size: 1.5rem; 
+    }
+    .header-text h1{
+        width: 300px;
+        font-size: 15px;
+    }
+    #about{
+        height: 100vh;
+        width: 100%;
+    }
+    .img{
+        width: 800px;
+        background-image: url(Images/profile.png);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        left: 20%;
+        top: 10%;
+    }
+    .column-1 img{
+        display: none;
+    }
+    .column-2 h1{
+       position: relative;
+       top: 60px;
+    }
+    .column-2 p{
+        width: 270px;
+    }
+    #projects{
+        width: 100%;
+        height: 80vh;
+    }
+    .skills{
+        align-items: center;
+        color: white;
+        width: 240px;
+        position: absolute;
+        top: 1100px;
+        text-align: center;
+
+    }
+    .skills .skill-box{
+        padding: 13px;
+        cursor: pointer;
+        margin: 10px;
+        background-color: hsl(0, 0%, 12%);
+        width: 150px;
+        text-align: center;
+        display: flex;
+    }
+    #contact{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        top: 1200px;
+    }
+    footer{
+        position: relative;
+        top: 1250px;
+    }
+    #projects h1{
+        margin: 20px;
+        position: relative;
+        top: 70px;
+        text-align: left;
+    }
+}
