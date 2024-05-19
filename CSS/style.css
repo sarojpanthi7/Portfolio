@@ -192,6 +192,26 @@ nav ul li a:hover{
  transition:background-color 0.5s;
  background-color: hsl(344, 100%, 57%);
 }
+#node::before{
+    content: '';
+}
+#node:hover::before{
+    content: '1+ months of experience in ';
+}
+#node:hover{
+ transition:background-color 0.5s;
+ background-color: hsl(344, 100%, 57%);
+}
+#tailwindcss::before{
+    content: '';
+}
+#tailwindcss:hover::before{
+    content: '6+ months of experience in ';
+}
+#tailwindcss:hover{
+ transition:background-color 0.5s;
+ background-color: hsl(344, 100%, 57%);
+}
 #projects{
     width: 100%;
     height: 100vh;
