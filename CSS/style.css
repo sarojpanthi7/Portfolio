@@ -186,7 +186,7 @@ nav ul li a:hover{
     content: '';
 }
 #reacts:hover::before{
-    content: '2+ months of experience in ';
+    content: '3+ months of experience in ';
 }
 #reacts:hover{
  transition:background-color 0.5s;
@@ -209,6 +209,16 @@ nav ul li a:hover{
     content: '6+ months of experience in ';
 }
 #tailwindcss:hover{
+ transition:background-color 0.5s;
+ background-color: hsl(344, 100%, 57%);
+}
+#express::before{
+    content: '';
+}
+#express:hover::before{
+    content: '1+ months of experience in ';
+}
+#express:hover{
  transition:background-color 0.5s;
  background-color: hsl(344, 100%, 57%);
 }
