@@ -232,13 +232,13 @@ nav ul li a:hover{
  transition:background-color 0.5s;
  background-color: hsl(344, 100%, 57%);
 }
-#node::before{
+#express::before{
     content: '';
 }
-#node:hover::before{
+#express:hover::before{
     content: '1+ months of experience in ';
 }
-#node:hover{
+#express:hover{
  transition:background-color 0.5s;
  background-color: hsl(344, 100%, 57%);
 }
